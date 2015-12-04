@@ -1,6 +1,6 @@
 {
-  "name": "seneca-mite-web",
-  "description": "A plugin that provides connection with Hapi application frameworks to Mite plugin.",
+  "name": "seneca-mite-hapi",
+  "description": "A plugin that provides connection with Hapi web application frameworks for Mite plugin.",
   "version": "0.0.1",
   "keywords": [
     "seneca",
@@ -33,6 +33,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mirceaalexandru/seneca-mite-web"
+    "url": "https://github.com/mirceaalexandru/seneca-mite-hapi"
   }
 }
