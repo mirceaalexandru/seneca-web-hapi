@@ -1,0 +1,38 @@
+{
+  "name": "seneca-mite-web",
+  "description": "A plugin that provides connection with Hapi application frameworks to Mite plugin.",
+  "version": "0.0.1",
+  "keywords": [
+    "seneca",
+    "mite",
+    "sentinel"
+  ],
+  "author": {
+    "name": "Mircea Alexandru",
+    "email": "mircea.alexandru@gmail.com",
+    "url": "http://alexandrumircea.ro"
+  },
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "pretest": "npm install",
+    "test": "lab test/*.test.js -r console -v -m 3000 -L -t 80"
+  },
+  "files": [
+    "LICENSE.txt",
+    "README.md",
+    "lib"
+  ],
+  "dependencies": {
+    "chairo": "1.1.0"
+  },
+  "devDependencies": {
+    "hapi": "11.1.2",
+    "lab": "7.3.0",
+    "seneca": "0.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mirceaalexandru/seneca-mite-web"
+  }
+}
