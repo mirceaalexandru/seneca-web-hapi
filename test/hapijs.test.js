@@ -65,4 +65,14 @@ suite('example suite tests ', function () {
       done()
     })
   })
+
+  test('test route list', function (done){
+    server.seneca.act('role: web, list: route', function(err, list) {
+      assert(!err)
+      assert(2, list.length)
+      assert('GET', list[0].method)
+
+      done()
+    })
+  })
 })
