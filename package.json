@@ -16,7 +16,7 @@
   "main": "lib/index.js",
   "scripts": {
     "pretest": "npm install",
-    "test": "lab test/*.test.js -r console -v -m 3000 -L -t 80"
+    "test": "lab test/*.test.js -r console -v -m 3000 -t 80"
   },
   "files": [
     "LICENSE.txt",
