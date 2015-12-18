@@ -13,7 +13,7 @@ Lead Maintainer: [Mircea Alexandru](https://github.com/mirceaalexandru)
 
 ## Description
 
-This Seneca plugin purpose is to help mite connect to Hapijs web application framework. This is internally used by seneca-mite.
+Seneca web for Hapi
 
 [npm-badge]: https://badge.fury.io/js/seneca-web-hapi.svg
 [npm-url]: https://badge.fury.io/js/seneca-web-hapi
