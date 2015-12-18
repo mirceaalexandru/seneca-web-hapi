@@ -16,7 +16,8 @@
   "main": "lib/index.js",
   "scripts": {
     "pretest": "npm install",
-    "test": "lab test/*.test.js -r console -v -m 3000 -t 80"
+    "test": "lab test/*.test.js -r console -v -m 3000 -t 80",
+    "coverage": "lab -s test/*.test.js -r lcov | coveralls"
   },
   "files": [
     "LICENSE.txt",
@@ -27,6 +28,7 @@
     "chairo": "1.1.0"
   },
   "devDependencies": {
+    "coveralls": "^2.11.6",
     "hapi": "11.1.2",
     "lab": "7.3.0",
     "seneca": "0.9.0"
